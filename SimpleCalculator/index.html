@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="flex">
+        <div class="container">
+            <div class="inn-con">
+
+                <!-- Input section  -->
+                <div class="block">
+                    <input id="inpt1" type="text" placeholder="Enter first value">
+                    <input id="operator" type="text" placeholder="Enter operator">
+                    <input id="inpt2" type="text" placeholder="Enter second value">
+                    <p id="ans"></p>
+                </div>
+
+                <hr> <!-- Horizontal line -->
+
+                <!-- buttons  -->
+                <div class="btns">
+                    <div>
+                        <section>
+                            <button class="btn7" id="btn7" onclick="bttn7()">7</button>
+                            <button class="btn8" id="btn8" onclick="bttn8()">8</button>
+                            <button class="btn9" id="btn9" onclick="bttn9()">9</button>
+                            <button class="btnPlus" id="btnPlus" onclick="bttnPlus()">+</button>
+                        </section>
+                        <section>
+                            <button class="btn4" id="btn4" onclick="bttn4()">4</button>
+                            <button class="btn5" id="btn5" onclick="bttn5()">5</button>
+                            <button class="btn6" id="btn6" onclick="bttn6()">6</button>
+                            <button class="btnMinus" id="btnMinus" onclick="bttnMinus()">-</button>
+                        </section>
+                        <section>
+                            <button class="btn1" id="btn1" onclick="bttn1()">1</button>
+                            <button class="btn2" id="btn2" onclick="bttn2()">2</button>
+                            <button class="btn3" id="btn3" onclick="bttn3()">3</button>
+                            <button class="btnMultiply" id="btnMultiply" onclick="bttnMul()">*</button>
+                        </section>
+                        <section>
+                            <button class="btnC" id="btnC" onclick="bttnC()">clr</button>
+                            <button class="btn0" id="btn0" onclick="bttn0()">0</button>
+                            <button class="btnEquals" id="btnEquals" onclick="bttnEquals()">=</button>
+                            <button class="btnDivison" id="btnDivison" onclick="bttnDivison()">/</button>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

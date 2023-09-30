@@ -1,0 +1,44 @@
+body{
+    background: #34344A;
+}
+.container{
+    width: 480px;
+    background: #fff;
+    height: 100px;
+    padding: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+}
+.inn-con{
+    color: #000;
+    padding: 20px;
+}
+input{
+    width: auto;
+    border: none;
+    outline: 0;
+    margin: 5px 0;
+}
+p{
+    padding: 0 0 5px 0;
+}
+.btns{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+    padding: 10px;
+}
+section > button{
+    padding: 20px;
+    margin: 5px;
+    width: 90px;
+}
